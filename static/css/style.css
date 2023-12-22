@@ -23,7 +23,7 @@ body {
   position: absolute;
   cursor: move;
   /* background-image: url("D:/Neural Network codes/Cards/static/img.jpeg"); */
-  background-image: url('/static/images/img.jpeg');
+  background-image: url('../images/img.jpeg');
   box-shadow: -5px 5px 15px 0px black;
 
 }
