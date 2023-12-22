@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <title>Draggable Divs</title>
+</head>
+<body>
+
+<div>
+    <button class="round-button" onclick="showPopup()">Click Me</button>
+</div>
+<div class="popup-container" id="popupContainer">
+    <!-- Popup content -->
+    <div class="popup">
+      <p>This is the popup content.</p>
+      <button onclick="closePopup()">X</button>
+    </div>
+  </div>
+
+<div id="draggableDiv1" class="draggable">
+    <div class="cont">Drag me 1!</div>
+</div>
+
+<div id="draggableDiv2" class="draggable">
+    <div class="cont">Drag me 2!</div>
+</div>
+
+<div id="draggableDiv3" class="draggable">
+    <div class="cont">Drag me 3!</div>
+</div>
+
+<div id="draggableDiv4" class="draggable">
+    <div class="cont">Drag me 4!</div>
+</div>
+
+<script src="static/js/script.js"></script>
+</body>
+</html>
